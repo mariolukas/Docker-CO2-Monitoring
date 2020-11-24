@@ -1,4 +1,4 @@
-# Watterott CO2 Ampel Monitor
+# Watterott CO2 Ampel Monitoring
 This Repository provides a ready to use Co2 Monitoring system for multiple Watterott Co2 Ampel Devices. The system comes with a simple preconfigured Dashboard. Every device is added automatically to the charts by using [InfluxDBs line protocol](https://docs.influxdata.com/influxdb/v1.8/write_protocols/line_protocol_tutorial/) tag_set.
 
 
@@ -6,7 +6,7 @@ This Repository provides a ready to use Co2 Monitoring system for multiple Watte
 
 
 
-##Installation
+## Installation
 
 Install docker and docker-compose on your system.
 
