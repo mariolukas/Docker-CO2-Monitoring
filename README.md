@@ -102,6 +102,12 @@ You should change the password! Otherwise you will be promoted to the change pas
 
 ---
 
+### Usage with Watterott Co2 Ampel Plus
+
+This setup is mainly made for the usage with the Watterott Co2 Ampel Plus. For getting it running with the "Ampel"
+you need to configure MQTT IP Adress to the address of the machine where you are running this docker setup. The port
+needs to be set to 1884. 
+
 ## Troubleshoot
 
 ### Login as admin does not work.
