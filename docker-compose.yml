@@ -1,12 +1,14 @@
 version: '2'
 services:
   mosquitto:
-    image: eclipse-mosquitto
+    image: eclipse-mosquitto:latest
     container_name: mosquitto
     restart: always
     ports:
-      - "1883:1883"
+      - "1884:1884"
       - "9001:9001"
+    volumes: 
+      - ./docker/mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf
 
   influxdb:
     image: influxdb
